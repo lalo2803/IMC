@@ -1,0 +1,94 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    color: black;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+div#conteudo{
+    width: 350px;
+    height: 500px;
+    box-shadow: 3px 5px 6px;
+    border-radius: 10px;
+    background-color:rgba(218, 165, 32, 0.884);
+}
+
+h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+hr{
+    color: black;
+}
+
+label ,  input , button{
+    margin-top: 20px;
+}
+
+label{
+    margin-left: 80px;
+
+}
+
+input{
+    width: 120px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+input#altura{
+    margin-left: 27px;
+}
+
+input#nome{
+    margin-left:42px;
+}
+
+section button#calcular{
+    margin-left: 40%;
+    background-color: black;
+    color: gold;
+    width: 90px;
+    height: 30px;
+    border: rgb(218, 187, 12) solid 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+section button#calcular:hover{
+    background-color: gold;
+    color: black;
+    border: black solid 1px;
+}
+
+div.texto{
+    width: 270px;
+    height: 100px;
+    background-color: black;
+    color: rgb(196, 169, 18);
+    margin-top: 35px;
+    margin-left: 12%;
+    border: rgb(218, 187, 12) solid 2px;
+    border-radius: 8px;
+}
+
+div.texto p{
+    color: gold;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
